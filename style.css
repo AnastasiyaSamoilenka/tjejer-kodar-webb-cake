@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Festive', cursive;
+  text-align: center;
+  background-color: hsl(182, 66%, 12%);
+}
+
+h1 {
+  font-size: 100px;
+  border: 2px aliceblue solid;
+  
+}
+
+h2 {
+  font-size: 15px;
+  color:brown;
+  padding: 8%;
+}
+
+a {
+  color: #7e2135;
+  text-decoration: none;
+}
+
+.product {
+  border: solid #fe859f 0.5px;
+  margin: 10px;
+  padding: 30px;
+  width: 25%;
+
+}
+
+.product img {
+  width: 100px;
+    height: auto;
+    position: relative;
+    width: 100%;
+  
+}
+
+.heading {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.363)), url(https://images.unsplash.com/photo-1576536042117-be5b8bc645b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center center;
+  color: aliceblue;
+  flex-direction: column;
+}
+.heading div{
+  flex-direction: row;
+  padding: 5%;
+}
+
+
+.all-products {
+  /* Här testar du dina flexbox-vingar. */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button{
+  border-radius: 45px;
+  background-color:rgb(51, 159, 209);
+  padding: 15px 32px;
+  font-size: 20px;
+}
+
+button:hover{
+  background-color:rgba(50, 168, 139, 0.911);
+}
+
+image{
+  flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
